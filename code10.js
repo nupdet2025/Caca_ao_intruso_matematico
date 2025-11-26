@@ -115,18 +115,7 @@ for (var i = 0, k = 0, l = gdjs.FinalCode.GDbtn_9595reiniciarObjects1.length;i<l
 }
 gdjs.FinalCode.GDbtn_9595reiniciarObjects1.length = k;
 if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.FinalCode.GDbtn_9595reiniciarObjects1.length;i<l;++i) {
-    if ( gdjs.FinalCode.GDbtn_9595reiniciarObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
-        isConditionTrue_0 = true;
-        gdjs.FinalCode.GDbtn_9595reiniciarObjects1[k] = gdjs.FinalCode.GDbtn_9595reiniciarObjects1[i];
-        ++k;
-    }
-}
-gdjs.FinalCode.GDbtn_9595reiniciarObjects1.length = k;
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\btn_press.mp3", false, 100, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\btn_press.mp3", false, 40, 1);
 }{gdjs.evtTools.sound.fadeSoundVolume(runtimeScene, 2, 0, 2);
 }
 { //Subevents

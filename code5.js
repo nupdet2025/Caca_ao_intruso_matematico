@@ -763,7 +763,7 @@ for (var i = 0, k = 0, l = gdjs.Cena_9505Code.GDbtn_9595nextObjects1.length;i<l;
 gdjs.Cena_9505Code.GDbtn_9595nextObjects1.length = k;
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\btn_press.mp3", false, 100, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\btn_press.mp3", false, 40, 1);
 }
 { //Subevents
 gdjs.Cena_9505Code.eventsList3(runtimeScene);} //End of subevents
