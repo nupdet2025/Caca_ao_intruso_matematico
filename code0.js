@@ -91,7 +91,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\bgm_music.mp3", 1, true, 60, 1);
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\bgm_music.mp3", 1, true, 20, 1);
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "intro");
 }{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\audio_01.mp3", 2, false, 100, 1);
 }}
@@ -114,7 +114,7 @@ for (var i = 0, k = 0, l = gdjs.IntroCode.GDbtn_9595jogarObjects1.length;i<l;++i
 }
 gdjs.IntroCode.GDbtn_9595jogarObjects1.length = k;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\btn_press.mp3", false, 100, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\btn_press.mp3", false, 40, 1);
 }{gdjs.evtTools.sound.fadeSoundVolume(runtimeScene, 2, 0, 0.5);
 }
 { //Subevents
